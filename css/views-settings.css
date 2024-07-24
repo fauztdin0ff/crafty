@@ -1,0 +1,381 @@
+/*--------------------------------SCREEN 2--------------------------------*/
+/*Левое облако с текстом Десктоп*/
+.screen2 .screen3__cloud-left-text {
+   transform: translate(3%, -28%);
+   width: 422px;
+   padding: 108px 89px 95px 94px;
+}
+
+/*Левое облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen2 .screen3__cloud-left-text {
+      transform: translate(-38%, -179%);
+      width: 325px;
+      padding: 79px 76px 71px 82px;
+   }
+}
+
+/*стрелка от левого облака Десктоп*/
+.screen2 .screen3__left-arrow {
+   width: 406px;
+   transform: translate(-21%, -33%) rotate(0deg);
+}
+
+/*стрелка от левого облака Мобила*/
+@media (max-width: 900px) {
+   .screen2 .screen3__left-arrow {
+      width: auto;
+      transform: translate(106%, -50%) rotate(0deg);
+   }
+}
+
+/*Правое облако с текстом Десктоп*/
+.screen2 .screen3__cloud-right-text {
+   padding: 84px 94px 77px 99px;
+   transform: translate(12%, 0);
+}
+
+/*Правое облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen2 .screen3__cloud-right-text {
+      margin-top: 0;
+      margin-bottom: auto;
+      padding: 80px 58px 77px 65px;
+      transform: translate(-44%, 75%);
+   }
+}
+
+/*стрелка от правого облака Десктоп*/
+.screen2 .screen3__right-arrow {
+   width: 200px;
+   transform: translate(-85%, -68%) rotate(0deg);
+}
+
+/*стрелка от правого облака Мобила*/
+@media (max-width: 900px) {
+   .screen2 .screen3__right-arrow {
+      width: auto;
+      transform: translate(-209%, 88%) rotate(0deg);
+   }
+}
+
+/*------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------SCREEN 3--------------------------------*/
+/*Левое облако с текстом Десктоп*/
+.screen3__cloud-left-text {
+   width: 321px;
+   padding: 84px 74px 64px 86px;
+   transform: translate(-51px, 46px);
+}
+
+/*Левое облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen3__cloud-left-text {
+      transform: translate(-60px, -20px);
+      width: 262px;
+      padding: 70px 50px 53px 57px;
+   }
+}
+
+/*стрелка от левого облака Десктоп*/
+.screen3__left-arrow {
+   width: 300px;
+   transform: translate(-89%, -18%) rotate(0deg);
+}
+
+/*стрелка от левого облака Мобила*/
+@media (max-width: 900px) {
+   .screen3__left-arrow {
+      width: auto;
+      transform: translate(174%, -43%) rotate(0deg);
+   }
+}
+
+/*Правое облако с текстом Десктоп*/
+.screen3__cloud-right-text {
+   width: 370px;
+   padding: 103px 70px 77px 70px;
+   transform: translate(-50px, 87px);
+}
+
+/*Правое облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen3__cloud-right-text {
+      transform: translate(53px, 6px);
+      width: 280px;
+      padding: 79px 58px 63px 58px;
+   }
+}
+
+/*Правое облако с текстом Мобила меньше 490px*/
+@media (max-width: 490px) {
+   .screen3__cloud-right-text {
+      transform: translate(40px, 6px);
+   }
+}
+
+/*стрелка от правого облака Десктоп*/
+.screen3__right-arrow {
+   width: 501px;
+   transform: translate(-27%, 31%) rotate(0deg);
+}
+
+/*стрелка от правого облака Мобила*/
+@media (max-width: 900px) {
+   .screen3__right-arrow {
+      width: auto;
+      transform: translate(-24%, 55%) rotate(0deg);
+   }
+}
+
+/*------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------SCREEN 4--------------------------------*/
+/*Левое облако с текстом Десктоп*/
+.screen4 .screen3__cloud-left-text {
+   width: 356px;
+   padding: 96px 68px 84px 88px;
+}
+
+/*Левое облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen4 .screen3__cloud-left-text {
+      padding: 72px 55px 68px 58px;
+      transform: translate(-125px, -32px);
+      width: 262px;
+   }
+}
+
+/*Левое облако с текстом Мобила меньше 490px*/
+@media (max-width: 490px) {
+   .screen4 .screen3__cloud-left-text {
+      transform: translate(-160px, -41px);
+   }
+}
+
+/*Левое облако с текстом Мобила меньше 360px*/
+@media (max-width: 360px) {
+   .screen4 .screen3__cloud-left-text {
+      transform: translate(-173px, -41px);
+   }
+}
+
+/*стрелка от левого облака Десктоп*/
+.screen4 .screen3__left-arrow {
+   transform: translate(76%, 0%);
+   width: auto;
+}
+
+/*стрелка от левого облака Мобила*/
+@media (max-width: 900px) {
+   .screen4 .screen3__left-arrow {
+      transform: translate(230%, 98%);
+   }
+}
+
+/*Правое облако с текстом Десктоп*/
+.screen4 .screen3__cloud-right-text {
+   padding: 69px 70px 83px 102px;
+   transform: translate(-104px, 71px);
+   width: 398px;
+}
+
+/*Правое облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen4 .screen3__cloud-right-text {
+      width: 265px;
+      padding: 47px 51px 63px 62px;
+      transform: translate(-106px, 130px);
+   }
+}
+
+/*стрелка от правого облака Десктоп*/
+.screen4 .screen3__right-arrow {
+   transform: translate(19%, 118%);
+   width: 400px;
+}
+
+/*стрелка от правого облака Мобила*/
+@media (max-width: 900px) {
+   .screen4 .screen3__right-arrow {
+      width: 145px;
+      transform: translate(-78%, 150%);
+   }
+}
+
+/*------------------------------------------------------------------------*/
+
+/*--------------------------------SCREEN 5--------------------------------*/
+/*Левое облако с текстом Десктоп*/
+.screen5 .screen3__cloud-left-text {
+   transform: translate(-52px, 52px) rotate(-10deg);
+   width: 470px;
+   padding: 82px 57px 86px 72px;
+}
+
+/*Левое облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen5 .screen3__cloud-left-text {
+      transform: translate(-53px, -80px) rotate(0deg);
+      padding: 80px 54px 80px 54px;
+      width: 337px;
+   }
+}
+
+/*Левое облако с текстом Мобила меньше 490px*/
+@media (max-width: 490px) {
+   .screen5 .screen3__cloud-left-text {
+      transform: translate(-32px, -135px) rotate(0deg);
+   }
+}
+
+/*стрелка от левого облака Десктоп*/
+.screen5 .screen3__left-arrow {
+   transform: translate(-90%, 176%) rotate(0deg);
+}
+
+/*стрелка от левого облака Мобила*/
+@media (max-width: 900px) {
+   .screen5 .screen3__left-arrow {
+      transform: translate(239%, -28%) rotate(0deg);
+      width: 85px;
+   }
+}
+
+/*стрелка от левого облака Мобила меньше 490px*/
+@media (max-width: 490px) {
+   .screen5 .screen3__left-arrow {
+      transform: translate(298%, -20%) rotate(0deg);
+      width: 91px;
+   }
+}
+
+/*стрелка от левого облака Мобила меньше 390px*/
+@media (max-width: 390px) {
+   .screen5 .screen3__left-arrow {
+      transform: translate(270%, -21%) rotate(0deg);
+   }
+}
+
+/*------------------------------------------------------------------------*/
+
+/*--------------------------------SCREEN 6--------------------------------*/
+/*Левое верхнее облако с текстом Десктоп*/
+.screen6 .screen3__cloud-left-text {
+   padding: 92px 114px 77px 129px;
+   width: 446px;
+   transform: translate(0px, -64px);
+}
+
+/*Левое верхнее облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen6 .screen3__cloud-left-text {
+      padding: 63px 66px 43px 82px;
+      width: 304px;
+      transform: translate(8%, 17%);
+   }
+}
+
+/*Левое верхнее облако с текстом Мобила меньше 600px*/
+@media (max-width: 600px) {
+   .screen6 .screen3__cloud-left-text {
+      transform: translate(67%, 34%);
+      padding: 60px 57px 47px 67px;
+      width: 273px;
+   }
+}
+
+/*стрелка от левого верхнего облака Десктоп*/
+.screen6 .screen3__left-arrow {
+   width: 300px;
+   transform: translate(-89%, 84%) rotate(0deg);
+}
+
+/*стрелка от левого верхнего облака Мобила*/
+@media (max-width: 900px) {
+   .screen6 .screen3__left-arrow {
+      width: 176px;
+      transform: translate(-72%, 17%) rotate(0deg);
+   }
+}
+
+/*стрелка от левого верхнего облака Мобила меньше 600px*/
+@media (max-width: 600px) {
+   .screen6 .screen3__left-arrow {
+      width: 145px;
+      transform: translate(-69%, 17%) rotate(0deg);
+   }
+}
+
+/*Левое нижнее облако с текстом Десктоп*/
+.screen6 .screen3__cloud-left-bottom-text {
+   width: 321px;
+   padding: 84px 74px 64px 86px;
+   transform: translate(60%, 41%);
+}
+
+/*Левое нижнее облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen6 .screen3__cloud-left-bottom-text {
+      transform: translate(-76%, -43%);
+      padding: 54px 68px 42px 72px;
+      width: 250px;
+   }
+}
+
+/*Левое нижнее облако с текстом Мобила меньше 600px*/
+@media (max-width: 600px) {
+   .screen6 .screen3__cloud-left-bottom-text {
+      transform: translate(-43%, -55%);
+   }
+}
+
+/*Правое облако с текстом Десктоп*/
+.screen6 .screen3__cloud-right-text {
+   padding: 84px 76px 68px 70px;
+   transform: translate(0%, 0%);
+}
+
+/*Правое облако с текстом Мобила*/
+@media (max-width: 900px) {
+   .screen6 .screen3__cloud-right-text {
+      transform: translate(32%, -217%);
+      padding: 60px 59px 52px 62px;
+      width: 270px;
+   }
+}
+
+/*Правое облако с текстом Мобила меньше 600px*/
+@media (max-width: 600px) {
+   .screen6 .screen3__cloud-right-text {
+      transform: translate(40%, -210%);
+      width: 230px;
+   }
+}
+
+/*стрелка от правого облака Десктоп*/
+.screen6 .screen3__right-arrow {
+   width: auto;
+   transform: translate(75%, -53%) rotate(0deg);
+}
+
+/*стрелка от правого облака Мобила*/
+@media (max-width: 900px) {
+   .screen6 .screen3__right-arrow {
+      transform: translate(11%, -37%) rotate(0deg);
+   }
+}
+
+/*стрелка от правого облака Мобила 600px*/
+@media (max-width: 600px) {
+   .screen6 .screen3__right-arrow {
+      transform: translate(2%, -56%) rotate(0deg);
+   }
+}
+
+/*------------------------------------------------------------------------*/

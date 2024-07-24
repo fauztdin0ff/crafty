@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/views-settings.css">
+   <title>CraftyWord</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__body container">
+            <div class="header__logo">
+               <a href="" class="header__logo-link" aria-label="Перейти на главную страницу">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 24" fill="red">
+                     <use xlink:href="img/svgicons/sprite.svg#logo"></use>
+                  </svg>
+               </a>
+            </div>
+            <div class="header__links">
+               <div class="header__link">
+                  <a href="#contacts" class="header__link-download slide-link" data-slide-index="7"
+                     aria-label="Скачать программу">
+                     <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="img/svgicons/sprite.svg#download"></use>
+                     </svg>
+                  </a>
+               </div>
+               <div class="header__link">
+                  <a href="#contacts" class="header__link-message slide-link" data-slide-index="7"
+                     aria-label="Написать сообщение">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                        <use xlink:href="img/svgicons/sprite.svg#comment"></use>
+                     </svg>
+                  </a>
+               </div>
+               <div class="header__link">
+                  <div class="header__languages">
+                     <ul class="languages-dropdown-menu">
+                        <li>
+                           <a href="">
+                              <img src="img/svgicons/spain-flag.svg" alt="Флаг Испании">
+                              Esp
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <img src="img/svgicons/uk-flag.svg" alt="Флаг Великобритании">
+                              Eng
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <img src="img/svgicons/france-flag.svg" alt="Флаг Франции">
+                              Fra
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <img src="img/svgicons/deu-flag.svg" alt="Флаг Германии">
+                              Deu
+                           </a>
+                        </li>
+                     </ul>
+                     <p class="active-language">
+                        <img src="img/svgicons/russia-flag.svg" alt="Флаг России">
+                     </p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </header>
+      <main class="main">
+         <div class="swiper sl-main">
+            <div class="swiper-wrapper sl-main-wr">
+
+               <!--Screen 1 start-->
+               <div class="welcome swiper-slide">
+                  <div class="welcome__content">
+                     <div class="welcome__image">
+                        <picture>
+                           <source srcset="img/screen1/penguin.webp" type="image/webp"><img
+                              src="img/screen1/penguin.png" class="welcome__image-main" alt="Пингвин">
+                        </picture>
+                        <div class="welcome__languages">
+                           <div class="welcome__language lang-ru">
+                              <img src="img/svgicons/russia-flag.svg" alt="Russia">
+                              <span>Привет!</span>
+                           </div>
+                           <div class="welcome__language lang-spain">
+                              <img src="img/svgicons/spain-flag.svg" alt="Spain">
+                              <span>Hola!</span>
+                           </div>
+                           <div class="welcome__language lang-italy">
+                              <img src="img/svgicons/italy-flag.svg" alt="Italy">
+                              <span>Ciao!</span>
+                           </div>
+                           <div class="welcome__language lang-gb">
+                              <img src="img/svgicons/uk-flag.svg" alt="United Kingdom">
+                              <span>Hello!</span>
+                           </div>
+                           <div class="welcome__language lang-france">
+                              <img src="img/svgicons//france-flag.svg" alt="France">
+                              <span>Salut!</span>
+                           </div>
+                           <div class="welcome__language lang-deu">
+                              <img src="img/svgicons/deu-flag.svg" alt="Germany">
+                              <span>Hallo!</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="welcome__text">
+                        <h1 class="welcome__title">
+                           Иностранные языки?
+                        </h1>
+                        <h2 class="welcome__subtitle">У нас куча иностранных языков. Ну уж точно все европейские!</h2>
+                        <div class="welcome__link">
+                           <a href="#screen2" class="blue-link slide-link" data-slide-index="1">Let's go
+                              <span>
+                                 <svg width="9" height="15" viewBox="0 0 9 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <use xlink:href="img/svgicons/sprite.svg#arrow-down"></use>
+                                 </svg>
+                              </span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--Screen 1 end-->
+
+               <!--Screen 2 start-->
+               <div class="screen2 screen3 swiper-slide">
+                  <div class="screen3__content">
+                     <div>
+                        <div class="screen3__cloud-left">
+                           <p class="screen3__cloud-left-text">
+                              Просто пиши как помнишь, как услышал,
+                              или как ты себе это представляешь. А мы
+                              уже додумаем ;)
+                           </p>
+                        </div>
+                        <div class="screen3__cloud-right">
+                           <p class="screen3__cloud-right-text">
+                              Предлагаемый перевод ты сразу можешь
+                              добавить к себе в карточки для изучения!
+                           </p>
+                        </div>
+                     </div>
+                     <div class="tel">
+                        <picture>
+                           <source srcset="img/screen2/iphone.webp" type="image/webp"><img src="img/screen2/iphone.png"
+                              class="iphone-border" alt="Iphone border">
+                        </picture>
+                        <picture>
+                           <source srcset="img/screen2/screenshot.webp" type="image/webp"><img
+                              src="img/screen2/screenshot.png" class="iphone-screenshot" alt="Screenshot">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen2/arrow-mob.svg">
+                           <img src="img/screen2/arrow.svg" class="screen3__left-arrow" alt="arrow">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen2/arrow2-mob.svg">
+                           <img src="img/screen2/arrow2.svg" class="screen3__right-arrow" alt="arrow">
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+               <!--Screen 2 end-->
+
+               <!--Screen 3 start-->
+               <div class="screen3 swiper-slide">
+                  <div class="screen3__content">
+                     <div class="screen3__cloud-left">
+                        <p class="screen3__cloud-left-text">
+                           Ну а если ты уж совсем ленивый бро –
+                           просто сфоткай и учи слова!
+                        </p>
+                     </div>
+                     <div class="tel">
+                        <picture>
+                           <source srcset="img/screen2/iphone.webp" type="image/webp"><img src="img/screen2/iphone.png"
+                              class="iphone-border" alt="Iphone border">
+                        </picture>
+                        <picture>
+                           <source srcset="img/screen3/screenshot.webp" type="image/webp"><img
+                              src="img/screen3/screenshot.png" class="iphone-screenshot" alt="Screenshot">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen3/arrow-left-mob.svg">
+                           <img src="img/screen3/arrow-left.svg" class="screen3__left-arrow" alt="arrow">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen3/arrow-right-mob.svg">
+                           <img src="img/screen3/arrow-right.svg" class="screen3__right-arrow" alt="arrow">
+                        </picture>
+                     </div>
+                     <div class="screen3__cloud-right">
+                        <p class="screen3__cloud-right-text">
+                           Да-да, мы найдем все предметы на
+                           картинке и ты сможешь это учить на
+                           иностранном языке.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!--Screen 3 end-->
+
+               <!--Screen 4 start-->
+               <div class="screen4 screen3 swiper-slide">
+                  <div class="screen3__content">
+                     <div class="tel">
+                        <picture>
+                           <source srcset="img/screen2/iphone.webp" type="image/webp"><img src="img/screen2/iphone.png"
+                              class="iphone-border" alt="Iphone border">
+                        </picture>
+                        <picture>
+                           <source srcset="img/screen4/screenshot.webp" type="image/webp"><img
+                              src="img/screen4/screenshot.png" class="iphone-screenshot" alt="Screenshot">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen4/arrow-top-mob.svg">
+                           <img src="img/screen4/arrow-top.svg" class="screen3__left-arrow" alt="arrow">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen4/arrow-bottom-mob.svg">
+                           <img src="img/screen4/arrow-bottom.svg" class="screen3__right-arrow" alt="arrow">
+                        </picture>
+                     </div>
+                     <div class="screen4__text">
+                        <div class="screen3__cloud-left">
+                           <p class="screen3__cloud-left-text">
+                              Абсолютно весь крафтинг внутри
+                              приложения превращается в карточки
+                              слов.
+                           </p>
+                        </div>
+                        <div class="screen3__cloud-right">
+                           <p class="screen3__cloud-right-text">
+                              Их удобно смахивать, перелистывать,
+                              тасовать. Совсем как обычные бумажные
+                              карточки!
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--Screen 4 end-->
+
+               <!--Screen 5 start-->
+               <div class="screen5 screen3 swiper-slide">
+                  <div class="screen3__content">
+                     <div class="screen3__cloud-left">
+                        <p class="screen3__cloud-left-text">
+                           Ну а если у тебя лапки и ты хочешь все
+                           готовенькое, просто переходи в одну из
+                           любезно заготовленных категорий!
+                        </p>
+                     </div>
+                     <div class="tel">
+                        <picture>
+                           <source srcset="img/screen2/iphone.webp" type="image/webp"><img src="img/screen2/iphone.png"
+                              class="iphone-border" alt="Iphone border">
+                        </picture>
+                        <picture>
+                           <source srcset="img/screen5/screenshot.webp" type="image/webp"><img
+                              src="img/screen5/screenshot.png" class="iphone-screenshot" alt="Screenshot">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen5/arrow-mob.svg">
+                           <img src="img/screen5/arrow.svg" class="screen3__left-arrow" alt="arrow">
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+               <!--Screen 5 end-->
+
+               <!--Screen 6 start-->
+               <div class="screen6 screen3 swiper-slide">
+                  <div class="screen3__content">
+                     <div class="screen3__cloud-left">
+                        <p class="screen3__cloud-left-text">
+                           На выбор у нас есть разные варианты. В
+                           том числе запоминание слов в контексте.
+                        </p>
+                        <p class="screen3__cloud-left-bottom-text">
+                           Ну разве чувак может сесть на полку?!
+                        </p>
+                     </div>
+                     <div class="tel">
+                        <picture>
+                           <source srcset="img/screen2/iphone.webp" type="image/webp"><img src="img/screen2/iphone.png"
+                              class="iphone-border" alt="Iphone border">
+                        </picture>
+                        <picture>
+                           <source srcset="img/screen6/screenshot.webp" type="image/webp"><img
+                              src="img/screen6/screenshot.png" class="iphone-screenshot" alt="Screenshot">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen6/arrow-left-mob.svg">
+                           <img src="img/screen6/arrow-left.svg" class="screen3__left-arrow" alt="arrow">
+                        </picture>
+                        <picture>
+                           <source media="(max-width: 900px)" srcset="img/screen6/arrow-right-mob.svg">
+                           <img src="img/screen6/arrow-right.svg" class="screen3__right-arrow" alt="arrow">
+                        </picture>
+                     </div>
+                     <div class="screen3__cloud-right">
+                        <p class="screen3__cloud-right-text">
+                           Считаешь себя прокачанным бро? Вперед
+                           к практикам!
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!--Screen 6 end-->
+
+               <!--Form start-->
+               <div class="contacts swiper-slide" id="contacts">
+                  <div class="contacts__body container">
+                     <div class="contacts__card">
+                        <div class="contacts__content">
+                           <div class="contacts__qr-codes">
+                              <div class="contacts__qr-code">
+                                 <picture>
+                                    <source srcset="img/contact-form/qr-1.webp" type="image/webp"><img
+                                       src="img/contact-form/qr-1.png" class="qr-code" alt="QR code 1">
+                                 </picture>
+                                 <a href=""><img src="img/contact-form/appstore.svg" class="store" alt="AppStore"></a>
+                              </div>
+                              <div class="contacts__qr-code unavialable">
+                                 <picture>
+                                    <source srcset="img/contact-form/qr-1.webp" type="image/webp"><img
+                                       src="img/contact-form/qr-1.png" class="qr-code" alt="QR code 2">
+                                 </picture>
+                                 <a href=""><img src="img/contact-form/googleplay.svg" class="store"
+                                       alt="PlayMarket"></a>
+                              </div>
+                           </div>
+                           <form action="" method="" id="form" class="contacts__form form">
+                              <div class="form__item">
+                                 <input type="email" name="email" placeholder="example@gmail.com" id="emailInput"
+                                    required>
+                                 <svg xmlns="http://www.w3.org/2000/svg" class="form__mail-icon" width="20" height="16"
+                                    viewBox="0 0 20 16" fill="none">
+                                    <use xlink:href="img/svgicons/sprite.svg#mail"></use>
+                                 </svg>
+                                 <svg xmlns="http://www.w3.org/2000/svg" class="form__check-icon" width="10" height="8"
+                                    viewBox="0 0 10 8" fill="none">
+                                    <use xlink:href="img/svgicons/sprite.svg#check"></use>
+                                 </svg>
+                                 <svg xmlns="http://www.w3.org/2000/svg" class="form__close-icon" width="16" height="16"
+                                    fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <use xlink:href="img/svgicons/sprite.svg#close"></use>
+                                 </svg>
+                              </div>
+                              <div class="form__item">
+                                 <textarea name="message" placeholder="Your message..." required></textarea>
+                              </div>
+                              <div class="form__item">
+                                 <div class="form__policy">
+                                    <input type="checkbox" id="policyCheckbox">
+                                    <label for="policyCheckbox" class="popup__checkbox"></label>
+                                    <label for="policyCheckbox">Отправляя данные, соглашаюсь <a href="">с
+                                          правилами</a></label>
+                                 </div>
+                              </div>
+                              <button type="submit" id="submitButton" disabled>Contact me</button>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--Form end-->
+            </div>
+         </div>
+         <div class="slider-button-prev">
+            <svg width="65" height="50" viewBox="0 0 65 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <use xlink:href="img/svgicons/sprite.svg#slider-left"></use>
+            </svg>
+         </div>
+         <div class="slider-button-next">
+            <svg width="65" height="50" viewBox="0 0 65 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <use xlink:href="img/svgicons/sprite.svg#slider-right"></use>
+            </svg>
+         </div>
+         <div class="ellipsis">
+            <div class="decoration-bg-1"></div>
+            <div class="decoration-bg-2"></div>
+            <div class="decoration-bg-3"></div>
+         </div>
+      </main>
+      <footer></footer>
+   </div>
+   <script>
+      if (window.innerWidth > 901) {
+         var script = document.createElement('script');
+         script.src = 'js/swiper-bundle.min.js';
+         document.head.appendChild(script);
+      }
+   </script>
+   <script src="js/app.js?_v=20240519003416"></script>
+</body>
+
+</html>
